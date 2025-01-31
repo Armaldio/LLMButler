@@ -170,6 +170,13 @@ const items = [
         perform: async () => {
             await process('Act as a copywriter. Your goal is to summarize the given text')
         },
+    },
+    {
+        label: 'Answer',
+        shortcut: ['A'],
+        perform: async () => {
+            await process('Act as a copywriter. Your goal is to answer the given text')
+        },
     }
 ]
 
